@@ -17,6 +17,7 @@
         <form>
             Nước ngọt các loại:
             <select name="water" id="water">
+                <option value="Không">Không</option>
                 <option value="Nước suối">Nước suối</option>
                 <option value="Coca cola">Coca cola</option>
                 <option value="7 up">7 up</option>
@@ -30,6 +31,7 @@
             <br>
             Trái cây:
             <select name="traicay" id="traicay">
+                <option value="Không">Không</option>
                 <option value="Trái cây nhỏ">Trái cây nhỏ</option>
                 <option value="Trái cây lớn">Trái cây lớn</option>
                 <option value="Bưởi">Bưởi</option>
@@ -42,6 +44,8 @@
             <br>
             <br>
             <input type="button" onclick="functionOk()" value="OK">
+            <input type="button" onclick="functionCancle()" value="Cancle">
+
             <p id="ketqua"></p>
             <p id="tiendu"></p>
         </form>

@@ -76,7 +76,7 @@ function functionCancle (){
     document.getElementById("tiendu").innerHTML="";
     document.getElementById("water").value="Không";
     document.getElementById("traicay").value="Không";
-    document.getElementById("money").value="";
+    document.getElementById("money").value="0";
 
 
 }
